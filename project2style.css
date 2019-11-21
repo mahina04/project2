@@ -1,0 +1,141 @@
+.grid {
+  display:grid;
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"a a a a a a a a a a a ."
+	"b b b c c c c c c c c ."
+	"b b b c c c c c c c c ."
+	"b b b d d d d d d d d ."
+	"b b b d d d d d d d d ."
+
+	
+}
+.a{
+	grid-area: a;
+
+}
+.b{
+	grid-area: b;
+	
+}
+
+.c{
+	grid-area: c;
+	
+}
+
+.d{
+	grid-area: d;
+	
+}
+
+.e {
+	grid-area: e;
+	
+}
+
+
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+
+}
+
+
+	
+.box {
+	background-color: white;
+	color: white;
+	border-radius: 5px;
+	border: 5px black solid;
+}
+
+h1.title{
+	font-size: 60px;
+	font-family: 'Bowlby One SC', cursive;
+	color: black;
+	text-align: center;
+}
+
+h2.title{
+	font-size: 40px;
+	font-family: Lucida Console;
+	color:black;
+	text-align: center;
+}
+
+p.title{
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	text-align: center;
+}
+	
+
+
+
+.grid2 {
+  display:grid;
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"1 1 1 1 1 1 1 1 1 1 1  ."
+	"2 2 2 2 2 2 2 3 3 3 3 	."
+	"2 2 2 2 2 2 2 2 2 2 2  ."
+	
+	
+	
+	
+}
+
+
+.box2 {
+	background-color: white;
+	color: white;
+	border-radius: 5px;
+	border: 5px black solid;
+}
+
+.1{
+	grid-area: 1;
+
+}
+.2{
+	grid-area: 2;
+	
+}
+
+.3{
+	grid-area: 3;
+	
+}
+
+h3.title{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Lora', serif;
+	font-family: 'Source Code Pro', monospace;
+	color: black;
+	text-align: center;
+}
+
+	
+
+
+
+	
